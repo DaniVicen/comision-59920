@@ -1,0 +1,215 @@
+body {
+    background-color: rgb(3, 3, 70);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.navbar {
+    float: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 40;
+    font-size: 28px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+    overflow: hidden;
+    height: 94px;
+    border-radius: 20px;
+}
+
+.navbar button {
+    width: 14rem;
+    height: 76px;
+    font-size: 28px;
+    float:inline-start;
+    margin-inline-start: 8rem;
+    display: inline;
+    text-decoration: none;
+    align-items: center;
+    background-color: whitesmoke;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 44px;
+    margin-top: 1rem;
+}
+
+.navbar button a {
+    color: rgb(3, 3, 70);
+}
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    color: whitesmoke;
+    text-align: left;
+    font-size: 60px;
+    margin-left: 8px;
+}
+
+h3 {
+    color: whitesmoke;
+    font-size: 32px;
+    margin-left: 8px;
+}
+
+h4 {
+    color: whitesmoke;
+    text-align: left;
+    font-size: 40px;
+}
+
+.banner {
+    width: 100%;
+    height: 30rem;
+    background-image: url("../assets/img/banner.png"); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner h1 {
+    margin-top: 304px;
+    text-align: left;
+    font-size: 7rem;
+    margin-left: 8px;
+}
+
+.banner h2 {
+    margin-bottom: 4px;
+    margin-left: 12px;
+    font-size: 3rem;
+    
+}
+
+.bannerTwo {
+    width: 100%;
+    height: 30rem;
+    background-image: url("../assets/img/bannerdos.png"); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bannerTwo h1 {
+    margin-top: 304px;
+    text-align: left;
+    font-size: 7rem;
+    margin-left: 8px;
+}
+
+.bannerTwo h2 {
+    margin-bottom: 4px;
+    margin-left: 12px;
+    font-size: 3rem;
+}
+
+.mediumContent {
+    display: flex;
+    height: 360px;
+}
+
+.mediumContent img {
+    width: 20%;
+    height: 260px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 68px;
+    margin-bottom: 80px;
+    background-image: url("../assets/img/guantes.jpg");
+    background-size: cover;
+}
+
+.mediumContent h2 {
+    font-size: 4rem;
+    text-align: left;
+    width: 60%;
+    margin-left: 68px;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.planesContainer {
+    vertical-align: middle;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    display: inline;
+    align-items: center;
+    margin-inline-start: 280px;
+    justify-content: space-between;
+}
+
+.footer {
+    width: 100%;
+    height: 10rem;
+    background-color: black;
+    margin-top: 20px;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.footer h3 {
+    text-align: center;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 40px;
+}
+
+.titlePrincipal h1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    background-color: whitesmoke;
+    color:rgb(3, 3, 70)
+}
+
+.contactBanner {
+    width: 100%;
+    height: 30rem;
+    background-image: url("../assets/img/contacto.jpg"); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+}
+
+.planes {
+    width: 100%;
+    height: 30rem;
+    background-image: url("../assets/img/planes.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+}
