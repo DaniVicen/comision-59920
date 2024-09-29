@@ -12,11 +12,11 @@ a:visited {
 }
 
 a:hover {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:active {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .navbar {
@@ -24,66 +24,79 @@ a:active {
     width: 100%;
     display: flex;
     flex-direction: column;
-    height: 40;
-    font-size: 28px;
+    height: 7rem;
+    font-size: 1.75rem;
 }
 
 .navbar ul {
-    list-style-type: none;
+    list-style: none;
     margin: 0;
     padding: 0;
     margin-bottom: 0;
     overflow: hidden;
-    height: 94px;
-    border-radius: 20px;
+    height: 8rem;
+    border-radius: 1.25rem;
 }
 
 .navbar button {
     width: 14rem;
-    height: 76px;
-    font-size: 28px;
-    float:inline-start;
+    height: 5rem;
+    font-size: 1.75rem;
+    float: inline-start;
     margin-inline-start: 8rem;
     display: inline;
     text-decoration: none;
     align-items: center;
-    background-color: whitesmoke;
     justify-content: space-between;
     text-align: center;
-    border-radius: 44px;
-    margin-top: 1rem;
+    border-radius: 2.75rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: whitesmoke;
 }
 
 .navbar button a {
     color: rgb(3, 3, 70);
+    text-align: center;
 }
 
 h1 {
     color: whitesmoke;
     text-align: center;
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 h2 {
     color: whitesmoke;
-    text-align: left;
-    font-size: 60px;
-    margin-left: 8px;
+    text-align: center;
+    font-size: 2.25rem;
+    margin-left: 0.5rem;
 }
 
 h3 {
     color: whitesmoke;
-    font-size: 32px;
-    margin-left: 8px;
+    font-size: 2rem;
+    margin-left: 0.5rem;
 }
 
 h4 {
     color: whitesmoke;
     text-align: left;
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
-.banner {
+.titlePrincipal h1{
+    height: 3rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    background-color: whitesmoke;
+    color:rgb(3, 3, 70);
+    border-radius: 2.75rem;
+}
+
+.homeBanner {
     width: 100%;
     height: 30rem;
     background-image: url("../assets/img/banner.png"); 
@@ -92,86 +105,131 @@ h4 {
     background-repeat: no-repeat;
 }
 
-.banner h1 {
-    margin-top: 304px;
+.homeBanner h1 {
+    margin-top: 19rem;
     text-align: left;
     font-size: 7rem;
-    margin-left: 8px;
+    margin-left: 0.5rem;
 }
 
-.banner h2 {
-    margin-bottom: 4px;
-    margin-left: 12px;
+.homeBanner h2 {
+    margin-bottom: 0.25rem;
+    margin-left: 0.75rem;
     font-size: 3rem;
-    
+    text-align: left;
 }
 
-.bannerTwo {
+.homeBannerTwo {
     width: 100%;
     height: 30rem;
-    background-image: url("../assets/img/bannerdos.png"); 
+    background-image: url("../assets/img/bannerDos.jpg"); 
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.bannerTwo h1 {
-    margin-top: 304px;
+.homeBannerTwo h1 {
+    margin-top: 19rem;
     text-align: left;
     font-size: 7rem;
-    margin-left: 8px;
+    margin-left: 0.5rem;
 }
 
-.bannerTwo h2 {
-    margin-bottom: 4px;
-    margin-left: 12px;
+.homeBannerTwo h2 {
+    margin-bottom: 0.25rem;
+    margin-left: 0.75rem;
     font-size: 3rem;
+    text-align: left;
 }
 
-.mediumContent {
+.homeMediumContent {
     display: flex;
-    height: 360px;
+    height: 25rem;
 }
 
-.mediumContent img {
+.homeMediumContent img {
     width: 20%;
-    height: 260px;
+    height: 18rem;
     border-radius: 100%;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
-    margin-left: 68px;
-    margin-bottom: 80px;
+    margin-top: 5rem;
+    margin-left: 4rem;
+    margin-bottom: 5rem;
     background-image: url("../assets/img/guantes.jpg");
     background-size: cover;
 }
 
-.mediumContent h2 {
+.homeMediumContent h2 {
+    width: 80%;
+    height: 18rem;
     font-size: 4rem;
-    text-align: left;
-    width: 60%;
-    margin-left: 68px;
-    margin-top: 80px;
+    text-align: center;
     justify-content: center;
     align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.planes {
+    width: 100%;
+    height: 30rem;
+    background-image: url("../assets/img/planes.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 2.5rem;
 }
 
 .planesContainer {
     vertical-align: middle;
-    width: 240px;
-    height: 240px;
+    width: 15rem;
+    height: 15rem;
     border-radius: 50%;
     display: inline;
     align-items: center;
-    margin-inline-start: 280px;
+    margin-inline-start: 17.5rem;
     justify-content: space-between;
+}
+
+.contactBanner {
+    width: 100%;
+    height: 30rem;
+    background-image: url("../assets/img/contacto.jpg"); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 2.5rem;
+}
+
+.contactMap {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 2.5rem;
+    height: 30rem;
+}
+
+.contactMap iframe {
+    width: 40%;
+    height: 20rem;
+    margin-left: 4rem;
+    border-radius: 2.75rem;
+    border-style: groove;
+}
+
+.contactMap h2 {
+    width: 60%;
+    height: 20rem;
+    margin-left: 4rem;
+    text-align: left;
 }
 
 .footer {
     width: 100%;
     height: 10rem;
     background-color: black;
-    margin-top: 20px;
+    margin-top: 1.25rem;
     flex-direction: column;
     align-content: space-between;
 }
@@ -182,34 +240,5 @@ h4 {
     justify-content: center;
     align-items: center;
     width: 100%;
-    font-size: 40px;
-}
-
-.titlePrincipal h1{
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    background-color: whitesmoke;
-    color:rgb(3, 3, 70)
-}
-
-.contactBanner {
-    width: 100%;
-    height: 30rem;
-    background-image: url("../assets/img/contacto.jpg"); 
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-top: 40px;
-}
-
-.planes {
-    width: 100%;
-    height: 30rem;
-    background-image: url("../assets/img/planes.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-top: 40px;
+    font-size: 2.5rem;
 }
