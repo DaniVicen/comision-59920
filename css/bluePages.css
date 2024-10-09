@@ -41,20 +41,20 @@ body {
 }
 
 .navItem {
-    margin-left: 2rem;
+    margin-left: 1.5rem;
     text-decoration: none;
 }
 
 .navItem a {
     text-decoration: none;
     padding: 2rem 0.8rem;
-    border-radius: 5px;
     color: whitesmoke;
     font-size: 2.5rem;
 }
 
 .navItem a:hover {
-    text-decoration: none;
+    text-decoration: underline;
+    color: whitesmoke;
 }
 
 a:link {
@@ -214,6 +214,11 @@ h4 {
     min-width: 66rem;
 }
 
+.textContact {
+    text-align: center;
+    min-width: 25rem;
+}
+
 .contactMap {
     display: flex;
     justify-content:space-around;
@@ -228,6 +233,7 @@ h4 {
     margin-left: 2rem;
     border-radius: 2.75rem;
     border-style: groove;
+    min-width: 30rem;
 }
 
 .contactMap h2 {
@@ -238,6 +244,7 @@ h4 {
     justify-content: center;
     align-items: center;
     margin-left: 1rem;
+    min-width: 30rem;
 }
 
 .footer {
@@ -285,9 +292,6 @@ h4 {
         font-size: 4rem;
         margin: 21rem 2rem 1rem 3rem;
     }
-    .planes h2 {
-        text-align: center;
-    }
 
     .textPlanes {
         text-align: center;
@@ -297,6 +301,11 @@ h4 {
     .textPlanes h2 {
         text-align: center;
         margin-left: 2.5rem;
+    }
+
+    .planesContainer {
+        display: flex;
+        justify-content: center;
     }
 
     .titlePrincipal h1 {
@@ -316,5 +325,14 @@ h4 {
         margin-top: 3rem;
         margin-left: 3rem;
         margin-bottom: 3rem;
+    }
+
+    .textContact {
+        text-align: center;
+        margin-left: 10rem;
+    }
+
+    .contactMap h2 {
+        margin-top: 0rem;
     }
 }

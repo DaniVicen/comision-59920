@@ -8,7 +8,7 @@ body {
     flex-wrap: wrap;
     padding: 0.25rem 0.5rem;
     font-size: 1.5rem;
-    text-align: center;
+    text-align: right;
     height: 12rem;
     min-height: 8rem;
 }
@@ -41,19 +41,20 @@ body {
 }
 
 .navItem {
-    margin-left: 2rem;
+    margin-left: 1.5rem;
+    text-decoration: none;
 }
 
 .navItem a {
     text-decoration: none;
     padding: 2rem 0.8rem;
-    border-radius: 5px;
     color: black;
     font-size: 2.5rem;
 }
 
 .navItem a:hover {
-    text-decoration: none;
+    text-decoration: underline;
+    color: black;
 }
 
 a:link {
@@ -90,7 +91,7 @@ h4 {
 }
 
 .titlePrincipal {
-    min-width: 70.5rem;
+    min-width: 73.5rem;
 }
 
 .titlePrincipal h1 {
@@ -106,13 +107,13 @@ h4 {
 }
 
 .kick {
-    display: flex;
-    flex-wrap: wrap;
-    min-width: 69rem;
+    width: 100%;
+    min-width: 74rem;
     height: 30rem;
     background-image: url("../assets/img/kick.jpg");
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     margin-top: 2.5rem;
 }
 
@@ -145,7 +146,12 @@ h4 {
     width: 45%;
     margin-top: 2.5rem;
     align-items: center;
-    min-width: 50rem;
+    min-width: 28rem;
+}
+
+.textFuncional {
+    text-align: center;
+    min-width: 40rem;
 }
 
 .footer {
@@ -155,7 +161,7 @@ h4 {
     margin-top: 0rem;
     flex-direction: column;
     align-content: space-between;
-    min-width: 70.5rem;
+    min-width: 73.5rem;
 }
 
 .footer h3 {
@@ -194,14 +200,36 @@ h4 {
     }
 
     .funcionalContainer {
-        display: flex;
-        justify-content:space-around;
+        justify-content: space-around;
         align-items: center;
-        margin-top: 2.0rem;
+        margin-top: 1rem;
+        margin-left: 6rem;
     }
 
     .funcionalContainer img {
-        height: 30rem;
-        min-width: 28rem;
+        height: 20rem;
+        margin: 2rem;
+    }
+
+    .funcionalImage {
+        justify-content: center;
+        align-items: center;
+        margin-left: 38rem;
+        
+    }
+
+    .funcionalImage img {
+        height: 20rem;
+    }
+
+    .textFuncional {
+        text-align: center;
+        margin-left: 18rem;
+        margin-top: 4rem;
+    }
+
+    .textFuncional h2{
+        text-align: center;
+        
     }
 }
