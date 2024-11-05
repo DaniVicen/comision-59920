@@ -251,19 +251,28 @@ h4 {
     width: 100%;
     height: 10rem;
     background-color: whitesmoke;
-    margin-top: 0rem;
-    flex-direction: column;
     align-content: space-between;
+    min-width: 66rem;
+    text-align: center;
+}
+
+.footerInfo {
+    width: 100%;
+    height: 10rem;
+    background-color: whitesmoke;
+    display: flex;
+    align-content: space-around;
     min-width: 66rem;
 }
 
-.footer h3 {
-    text-align: center;
-    color: black;
+.footerNavItem {
+    text-decoration: none;
+}
+
+.finalFooter {
     justify-content: center;
-    align-items: center;
-    width: 100%;
-    font-size: 2.5rem;
+    background-color: whitesmoke;
+    text-align: center;
 }
 
 @media (max-width: 48rem) {
