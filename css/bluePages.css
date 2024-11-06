@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    margin-left: 0rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
@@ -21,14 +22,14 @@ body {
     background-image: url("../assets/img/logo.jpg");
     background-size: cover;
     background-position: center;
-    margin: 0.5rem 1rem 0.5rem 1rem;
+    margin: 0.5rem 1rem 0.5rem 0rem;
 }
 
 .nav {
     display: flex;
     text-decoration: none;
     color: whitesmoke;
-    margin-left: 1rem;
+    margin-left: 0rem;
 }
 
 .navList {
@@ -98,19 +99,21 @@ h4 {
     font-size: 2.5rem;
     background-color: whitesmoke;
     color: black;
-    border-radius: 2.75rem;
+    min-width: 74rem;
     margin-top: 1rem;
+    margin-left: 0.5rem;
 }
 
 .homeBanner {
     display: flex;
     flex-wrap: wrap;
-    min-width: 66rem;
+    min-width: 70rem;
     height: 30rem;
     background-image: url("../assets/img/banner.png"); 
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-left: 0.5rem;
 }
 
 .homeBanner h1 {
@@ -156,12 +159,13 @@ h4 {
 .homeBannerTwo {
     display: flex;
     flex-wrap: wrap;
-    min-width: 66rem;
+    min-width: 70rem;
     height: 30rem;
     background-image: url("../assets/img/bannerDos.jpg"); 
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-left: 0.5rem;
 }
 
 .homeBannerTwo h1 {
@@ -179,12 +183,13 @@ h4 {
     display: flex;
     flex-wrap: wrap;
     height: 30rem;
-    min-width: 66rem;
+    min-width: 70rem;
     background-image: url("../assets/img/planes.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 2.5rem;
+    margin-left: 0.5rem;
 }
 
 .textPlanes {
@@ -204,14 +209,16 @@ h4 {
 }
 
 .contactBanner {
-    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
     height: 30rem;
+    min-width: 70rem;
     background-image: url("../assets/img/contacto.jpg"); 
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 2.5rem;
-    min-width: 66rem;
+    margin-left: 0.5rem;
 }
 
 .textContact {
@@ -248,21 +255,21 @@ h4 {
 }
 
 .footer {
-    width: 100%;
     height: 10rem;
     background-color: whitesmoke;
     align-content: space-between;
-    min-width: 66rem;
+    min-width: 70rem;
     text-align: center;
+    margin-left: 0.5rem;
 }
 
 .footerInfo {
-    width: 100%;
     height: 10rem;
     background-color: whitesmoke;
     display: flex;
     align-content: space-around;
-    min-width: 66rem;
+    min-width: 70rem;
+    margin-left: 0.5rem;
 }
 
 .footerNavItem {
@@ -273,24 +280,30 @@ h4 {
     justify-content: center;
     background-color: whitesmoke;
     text-align: center;
+    margin-left: 0.5rem;
+    min-width: 70rem;
 }
 
-@media (max-width: 48rem) {
-    .navList {
-        margin: 1rem 0rem 0rem 4rem;
+@media (max-width: 20rem) {
+    .logo { 
+        margin: 1rem 32rem 0rem 30rem;
     }
+
+    .navList {
+        margin: 1rem 0rem 0rem 3rem;
+    }
+
     .navItem {
         text-align: center;
         display: flex;
         flex: 1;
         justify-content: space-between;
     }
+
     .navItem a { 
-        font-size: 2rem;
+        font-size: 2.5rem;
     }    
-    .logo { 
-        margin: 1rem 20rem 0rem 28rem;
-    }
+    
     .homeBanner h1 {
         text-align: center;
         font-size: 4rem;
@@ -302,9 +315,14 @@ h4 {
         margin: 21rem 2rem 1rem 3rem;
     }
 
+    .planes {
+        min-width: 74rem;
+        margin-left: 0rem;
+    }
+
     .textPlanes {
         text-align: center;
-        margin-left: 2.5rem;
+        margin-left: 6.5rem;
     }
 
     .textPlanes h2 {
@@ -317,12 +335,15 @@ h4 {
         justify-content: center;
     }
 
+    .titlePrincipal {
+        min-width: 74rem;
+    }
+
     .titlePrincipal h1 {
         display: flex;
-        min-width: 66rem;
         flex: 1;
-        justify-content: space-around;
-        margin: 8rem 0rem 0.5rem 0rem;
+        min-width: 60rem;
+        margin: 8rem 0rem 0rem 0rem;
     }
 
     .homeMediumContent h2 {
@@ -336,12 +357,32 @@ h4 {
         margin-bottom: 3rem;
     }
 
+    .contactBanner {
+        min-width: 74rem;
+        margin-left: 0rem;
+    }
+
     .textContact {
         text-align: center;
-        margin-left: 10rem;
+        margin-left: 13rem;
     }
 
     .contactMap h2 {
         margin-top: 0rem;
+    }
+
+    .footer {
+        min-width: 74rem;
+        margin-left: 0rem;
+    }
+
+    .footerInfo {
+        min-width: 74rem;
+        margin-left: 0rem;
+    }
+
+    .finalFooter {
+        min-width: 74rem;
+        margin-left: 0rem;
     }
 }

@@ -1,12 +1,13 @@
 body {
     background-color: whitesmoke;
+    margin-left: 0rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 .header {
     display: flex;
     flex-wrap: wrap;
-    padding: 0.25rem 0.5rem;
+    padding: 0.25rem 0rem;
     font-size: 1.5rem;
     text-align: right;
     height: 12rem;
@@ -90,10 +91,6 @@ h4 {
     font-size: 2.5rem;
 }
 
-.titlePrincipal {
-    min-width: 74rem;
-}
-
 .titlePrincipal h1 {
     height: 3rem;
     text-align: center;
@@ -102,19 +99,22 @@ h4 {
     font-size: 2.5rem;
     background-color: black;
     color: whitesmoke;
-    border-radius: 2.75rem;
     margin-top: 1rem;
+    min-width: 74rem;
+    margin-left: 0.5rem;
 }
 
 .kick {
-    width: 100%;
-    min-width: 74rem;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 70rem;
     height: 30rem;
     background-image: url("../assets/img/kick.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 2.5rem;
+    margin-left: 0.5rem;
 }
 
 .textKick {
@@ -155,12 +155,12 @@ h4 {
 }
 
 .footer {
-    width: 100%;
     height: 10rem;
     background-color: black;
     align-content: space-between;
-    min-width: 74rem;
+    min-width: 70rem;
     text-align: center;
+    margin-left: 0.5rem;
 }
 
 .footer h5 {
@@ -168,12 +168,12 @@ h4 {
 }
 
 .footerInfo {
-    width: 100%;
     height: 10rem;
     background-color: black;
     display: flex;
     align-content: space-between;
-    min-width: 74rem;
+    min-width: 70rem;
+    margin-left: 0.5rem;
 }
 
 .footerInfo h5 {
@@ -193,15 +193,21 @@ h4 {
     text-align: center;
     background-color: black;
     color: whitesmoke;
+    margin-left: 0.5rem;
+    min-width: 70rem;
 }
 
 .finalFooter h5 {
     color: whitesmoke;
 }
 
-@media (max-width: 48rem) {
+@media (max-width: 20rem) {
+    .logo { 
+        margin: 1rem 32rem 0rem 30rem;
+    }
+    
     .navList {
-        margin: 1rem 0rem 0rem 5rem;
+        margin: 1rem 0rem 0rem 3rem;
     }
     .navItem {
         text-align: center;
@@ -211,19 +217,23 @@ h4 {
     }
 
     .navItem a { 
-        font-size: 2.2rem;
+        font-size: 2.5rem;
     }  
 
-    .logo { 
-        margin: 1rem 20rem 0rem 30rem;
+    .titlePrincipal {
+        min-width: 74rem;
     }
 
     .titlePrincipal h1 {
         display: flex;
         flex: 1;
-        min-width: 66rem;
-        justify-content: space-around;
-        margin: 8rem 0rem 0.5rem 0rem;
+        min-width: 60rem;
+        margin: 8rem 0rem 0rem 0rem;
+    }
+
+    .kick {
+        min-width: 74rem;
+        margin-left: 0rem;
     }
 
     .funcionalContainer {
@@ -258,5 +268,20 @@ h4 {
     .textFuncional h2{
         text-align: center;
         
+    }
+
+    .footer {
+        min-width: 74rem;
+        margin-left: 0rem;
+    }
+
+    .footerInfo {
+        min-width: 74rem;
+        margin-left: 0rem;
+    }
+
+    .finalFooter {
+        min-width: 74rem;
+        margin-left: 0rem;
     }
 }
