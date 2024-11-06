@@ -284,7 +284,7 @@ h4 {
     min-width: 70rem;
 }
 
-@media (max-width: 20rem) {
+@media (max-width: 48rem) {
     .logo { 
         margin: 1rem 32rem 0rem 30rem;
     }
