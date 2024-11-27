@@ -22,7 +22,7 @@ body {
     background-image: url("../assets/img/logo.jpg");
     background-size: cover;
     background-position: center;
-    margin: 0.5rem 1rem 0.5rem 0rem;
+    margin: 0.5rem 1rem 0.5rem 1rem;
 }
 
 .nav {
@@ -142,7 +142,7 @@ h4 {
     border-radius: 100%;
     background-image: url("../assets/img/guantes.jpg");
     background-size: cover;
-    margin: 3rem 1rem 4rem 1rem;
+    margin: 3rem 1rem 4rem 4rem;
 }
 
 .homeMediumContent h2 {
@@ -152,7 +152,6 @@ h4 {
     font-size: 2rem;
     text-align: center;
     margin-top: 6rem;
-    margin-left: 1rem;
     margin-bottom: 3rem;
 }
 
@@ -285,6 +284,31 @@ h4 {
     min-width: 70rem;
 }
 
+@media (max-width: 100rem) {
+    .logo { 
+        margin: 2rem 2rem 2rem 2rem;
+    }
+
+    .navList {
+        margin: 3rem 0rem 0rem 0rem;
+    }
+
+    .navItem {
+        text-align: center;
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+    }
+
+    .navItem a { 
+        font-size: 1.5rem;
+    }   
+    
+    .planesContainer {
+        margin-left: 12rem;
+    }
+}
+
 @media (max-width: 48rem) {
     .logo { 
         margin: 1rem 32rem 0rem 30rem;
@@ -404,3 +428,4 @@ h4 {
         margin-left: 0rem;
     }
 }
+
